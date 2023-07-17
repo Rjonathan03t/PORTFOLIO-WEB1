@@ -160,9 +160,39 @@
     background-color: white;
 }
 
-.AirPlane{
-    color: red;
-    transform: rotate(90deg);
-    width: 100px;
+.twtch{
+    color: white;
+    background-color: blueviolet;
+}
+
+.twtch:hover{
+    transform: scale(1.1);
+    color: blueviolet;
+    background-color: white;
+}
+
+.years{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+    border: 3px solid gold;
+    width:100px;
     height: 100px;
+    border-radius: 100%;
+    font-size: 35px;
+}
+
+.degree{
+    font-size: 30px;
+}
+
+.allCareer{
+    align-items: center;
+}
+
+.career ul li:nth-child(2){
+    justify-content: end;
 }
