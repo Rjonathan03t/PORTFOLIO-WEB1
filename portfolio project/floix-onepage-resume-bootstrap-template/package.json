@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap-icons": "^1.10.5",
+    "chart.js": "^4.3.0"
+  },
+  "name": "floix-onepage-resume-bootstrap-template",
+  "version": "1.0.0",
+  "description": "descriptions about myself",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jonathan",
+  "license": "ISC"
+}

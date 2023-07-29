@@ -1,0 +1,416 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* style of all HEADER
+- All navbar */
+.navbar {
+    background-color: rgb(3, 3, 90);
+}
+
+.fixed {
+    transition: .5s;
+    background-color: rgb(3, 3, 110 , .5);
+}
+.logo {
+    color:rgb(255, 183, 0) ;
+    font-size: 40px;
+    font-family: 'Cookie' , cursive;
+}
+
+.logo a{
+    color:rgb(255, 183, 0) ;
+    font-size: 40px;
+    font-family: 'Cookie' , cursive;
+}
+.logo a:hover{
+    color:white ;
+}
+
+
+.navhover a{
+    font-family: 'Gotu', sans-serif;
+    color: white;
+}
+
+
+.navhover a:hover {
+    background-color: rgb(255, 183, 0);
+    color: rgb(3, 3, 110);
+}
+
+/* about hero banner*/
+
+.bannercolor {
+    background-color: white;
+}
+
+.hero {
+    width: 400px;
+    box-shadow: 10px 10px 1px 1px rgb(3, 3, 110), 20px 20px 1px 1px rgb(255, 183, 0);
+    color: rgb(129, 0, 129 ,.6);
+}
+
+.herosct {
+    background-image: url('image');
+}
+
+.name {
+    font-size: 50px;
+    font-family: 'Gotu', sans-serif;
+}
+
+.hello {
+    font-size: 25px;
+    color: black;
+    font-family: 'Gotu', sans-serif;
+}
+
+.desc{
+    font-size: 25px; 
+    color: black; 
+    font-family: 'Gotu', sans-serif;
+}
+
+.job{
+    font-size: 65px;
+    font-weight: lighter;
+    color: rgb(3, 3, 90);
+}
+
+#typed {
+    color: rgb(255, 183, 0);
+    font-size: 65px;
+    font-weight: lighter;
+    font-family: 'Gotu', sans-serif;
+}
+
+.contactBtn {
+    padding: 1vw;
+    margin: 0% 30%;
+    background-color: rgb(255, 183, 0);
+    color: white;
+    border: none;
+    font-size: 30px;
+    transition: .3s;
+    font-family: 'Gotu', sans-serif;
+}
+
+.contactBtn:hover {
+    color: rgb(255, 183, 0);
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.contactIcon {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.contactIcon a {
+    transition: .3s;
+    text-align: center;
+}
+
+.social {
+    color: white;
+    background-color: rgb(3, 3, 110);
+}
+
+.social:hover {
+    transform: scale(1.1);
+    color: rgb(3, 3, 110);
+    background-color: white;
+}
+
+#facebook{
+    animation: facebook .8s alternate infinite;
+}
+
+@keyframes facebook {
+    0% {
+        margin-top: 0;
+    }
+
+    100% {
+        margin-top: 1vw;
+    }
+}
+
+
+.aboutcareer{
+    font-family: 'Gotu', sans-serif;
+}
+
+.overview{
+    padding-bottom: 2vw;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: rgb(255, 183, 0);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.box {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+
+.box::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -12px;
+    background-color: rgb(255, 183, 0);
+    top: 15px;
+    border-radius:3px;
+    z-index: 1;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    left: 50%;
+}
+
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 26px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 26px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+.right::after {
+    left: -13px;
+}
+
+.content {
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 3px;
+    position: relative;
+}
+
+.content h2{
+    color: black;
+}
+
+.content h4{
+    color: rgb(144, 144, 144);
+}
+
+.content p{
+    font: 15px;
+}
+
+#stats{
+    font-family:  'Gotu', sans-serif;
+}
+
+.chart{
+    width: 400px;
+    height: 400px;
+    margin: 0;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    color: rgb(82, 45, 0 , .8);
+}
+
+.general{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+#services{
+    font-family: 'Gotu' ,sans-serif;
+}
+
+#testimonials h3{
+    font-family: 'Cookie', cursive;
+    font-size: 60px;
+}
+
+#testimonials p{
+    font-family: 'Caveat', cursive;
+}
+
+#testimonials{
+    font-family: 'Gotu' ,sans-serif;
+}
+
+.serviceBox{
+    position: relative;
+    border-radius: 20px;
+    animation: serviceDesc .8s alternate infinite;
+}
+
+@keyframes serviceDesc {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 1vw;
+    }
+}
+
+.serviceDesc::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: -22%;
+    left: 40%;
+    z-index: 1;
+    border:  solid white;
+    border-width: 20px 40px 20px 40px;
+    border-color: transparent  transparent rgb(3, 3, 110) transparent;
+}
+
+.testimonials{
+    border-radius: 3px;
+}
+
+#contact{
+    font-family: 'Gotu' ,sans-serif;
+}
+
+.footerForm{
+    max-width: 550px;
+    margin-left: 30%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px rgb(3, 3,80) ; 
+    border-radius: 3px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(3, 3,80); 
+    border-radius: 3px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 183, 0) ; 
+  }
+  
+.send {
+    padding: 2px;
+    margin:1px;
+    background-color: rgb(255, 183, 0);
+    color: white;
+    border: none;
+    font-size: 20px;
+    transition: .3s;
+    font-family: 'Gotu', sans-serif;
+}
+
+.send:hover {
+    color: rgb(255, 183, 0);
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.contact-left{
+    background-color: rgb(255, 183, 0);
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px 1px grey;
+    padding: 130px 98px;
+}
+
+.contact-left h1 {
+    font-size: 50px;
+    color: rgb(3, 3, 110);
+}
+
+.contact-left h2 {
+    font-size: 35px;
+    color: white;
+}
+
+.contact-right{
+    padding: 20px 100px;
+    position: relative;
+}
+
+.myFooter {
+	text-align: left;
+	padding-top: 5%;
+	padding-bottom: 7%;
+    background-color: rgb(3, 3,80 );
+}
+.myFooter h3 {
+	font-size: 14px;
+	color: rgb(255, 183, 0);
+	letter-spacing: 2px;
+	margin: 0 0 15px 0;
+	padding: 0px;
+}
+.myFooter p {
+	font-size: 12px;
+	color: white;
+}
+.myFooter a {
+	color: white;
+}
+
+.footerList li a{
+   font-size: 20px;
+}
+.footerList li a:hover{
+    color: rgb(255, 183, 0);
+}
