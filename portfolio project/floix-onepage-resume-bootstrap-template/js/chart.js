@@ -1,4 +1,4 @@
-//barchart
+//barchart (hour spended)
 const ctx = document.getElementById('myChart');
 new Chart(ctx, {
     type: 'bar',
@@ -48,7 +48,7 @@ new Chart(ctx, {
     }
 });
 
-//doughnut
+//doughnut (general)
 const doughnut = document.getElementById('doughnut');
 new Chart(doughnut, {
     type: 'doughnut',

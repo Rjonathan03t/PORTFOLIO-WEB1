@@ -1,4 +1,7 @@
-/* about responsive navbar */
+/* All responsive design here
+*/
+/* For All tablets
+*/
 @media screen and (max-width : 991px) {
     #about {
         margin: 0%;
@@ -31,7 +34,8 @@
         margin-right: 0;
     }
 }
-
+/* For surface duo
+*/
 @media screen and (max-width: 600px) {
     .timeline::after {
         left: 28px;
@@ -70,6 +74,8 @@
     }
 }
 
+/* for all mobile phone except galaxy fold/flip
+*/
 @media screen and (max-width : 460px) {
     .name {
         font-size: 35px;
@@ -143,6 +149,8 @@
     }
 }
 
+/* for galaxy fold
+*/
 @media screen and (max-width : 280px) {
     .heroDesc p {
         font-size: 25px;
