@@ -1,0 +1,368 @@
+/* about responsive navbar */
+@media screen and (max-width : 991px) {
+    #about {
+        margin: 0%;
+    }
+
+    .navCenter {
+        text-align: center;
+    }
+
+    .herobanner {
+        align-items: center;
+        padding-top: 10vw;
+    }
+
+    .herotext {
+        padding-top: 10vh;
+    }
+
+    .contactIcon a {
+        display: none;
+    }
+
+    .chart {
+        width: 450px;
+        height: 450px;
+        margin: 0;
+    }
+
+    .herobanner {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .timeline::after {
+        left: 28px;
+    }
+
+    .box {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .box::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    .right {
+        left: 0%;
+    }
+
+    .chart {
+        width: 300px;
+        height: 300px;
+        margin: 0;
+    }
+
+    .herobanner {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width : 460px) {
+    .name {
+        font-size: 35px;
+    }
+
+    .job {
+        font-size: 50px;
+    }
+
+    #typed {
+        font-size: 50px;
+    }
+
+    .contactBtn {
+        font-size: 22px;
+    }
+
+    .navCenter {
+        text-align: center;
+    }
+
+    .herobanner {
+        align-items: center;
+        padding-top: 35vw;
+    }
+
+    .herotext {
+        padding-top: 10vh;
+    }
+
+    .logo a{
+        width: 100px;
+    }
+
+    .contactIcon a {
+        display: none;
+    }
+
+    .bannercolor img {
+        width: 300px;
+    }
+
+    .degree {
+        width: 23px;
+    }
+
+    .barchart {
+        width: 200px;
+        height: 200px;
+        margin: 0;
+    }
+
+    .herobanner {
+        margin-right: 0;
+    }
+
+    #about {
+        padding-right: 10vw;
+    }
+
+    .content h2 {
+        font-size: 20px;
+    }
+
+    .content h4 {
+        font-size: 15px;
+    }
+
+    .content p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width : 280px) {
+    .heroDesc p {
+        font-size: 25px;
+    }
+
+    .job {
+        font-size: 40px;
+    }
+
+    #typed {
+        font-size: 40px;
+    }
+
+    .contactBtn {
+        font-size: 15px;
+    }
+
+    .navCenter {
+        text-align: center;
+    }
+
+    .herobanner {
+        align-items: center;
+        padding-top: 35vw;
+    }
+
+    .herotext {
+        padding-top: 10vh;
+    }
+
+    .logo a{
+        width: 100px;
+    }
+
+    .contactIcon a {
+        display: none;
+    }
+
+    .bannercolor img {
+        width: 150px;
+    }
+
+    .degree {
+        width: 23px;
+    }
+
+    .barchart {
+        width: 200px;
+        height: 200px;
+        margin: 0;
+    }
+
+    .herobanner {
+        margin-right: 0;
+    }
+
+    #about {
+        padding-right: 1vw;
+    }
+
+    .content h2 {
+        font-size: 15px;
+    }
+
+    .content h4 {
+        font-size: 13px;
+    }
+
+    .content p {
+        font-size: 11px;
+    }
+
+    .serviceDesc::before {
+        content: " ";
+        height: 0;
+        position: absolute;
+        top: -10%;
+        left: 25%;
+        z-index: 1;
+        border: solid white;
+        border-width: 20px 40px 20px 40px;
+        border-color: transparent transparent rgb(3, 3, 110) transparent;
+    }
+
+    .contact-left h1 {
+        font-size: 45px;
+    }
+
+    .contact-left h2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .name {
+        font-size: 35px;
+    }
+
+    .job {
+        font-size: 50px;
+    }
+
+    #typed {
+        font-size: 50px;
+    }
+
+    .contactBtn {
+        font-size: 25px;
+    }
+
+    .bannercolor img {
+        width: 250px;
+    }
+
+    .timeline::after {
+        left: 28px;
+    }
+
+    .box {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .box::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    .right {
+        left: 0%;
+    }
+
+    .chart {
+        width: 300px;
+        height: 300px;
+        margin: 0;
+    }
+
+    .herobanner {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-height : 460px) {
+    .name {
+        font-size: 35px;
+    }
+
+    .job {
+        font-size: 50px;
+    }
+
+    #typed {
+        font-size: 50px;
+    }
+
+    .contactBtn {
+        font-size: 22px;
+    }
+
+    .navCenter {
+        text-align: center;
+    }
+
+    .herobanner {
+        align-items: center;
+        padding-top: 35vw;
+    }
+
+    .herotext {
+        padding-top: 10vh;
+    }
+
+    .logo a{
+        width: 100px;
+    }
+
+    .contactIcon a {
+        display: none;
+    }
+
+    .bannercolor img {
+        width: 300px;
+    }
+
+    .degree {
+        width: 23px;
+    }
+
+    .barchart {
+        width: 200px;
+        height: 200px;
+        margin: 0;
+    }
+
+    .herobanner {
+        margin-right: 0;
+    }
+
+    #about {
+        padding-right: 10vw;
+    }
+
+    .content h2 {
+        font-size: 20px;
+    }
+
+    .content h4 {
+        font-size: 15px;
+    }
+
+    .content p {
+        font-size: 10px;
+    }
+}
