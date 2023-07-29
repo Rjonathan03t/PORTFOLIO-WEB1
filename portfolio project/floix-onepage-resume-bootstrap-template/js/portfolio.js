@@ -1,6 +1,6 @@
+//This is a navbar modification on scroll 
 const navbar = document.getElementById('navbar');  
 const hamburger = document.getElementById('hamburger');  
- 
 const navhover = document.getElementById('navhover');  
 window.addEventListener('scroll' ,function(){
     var scroll = window.scrollY;

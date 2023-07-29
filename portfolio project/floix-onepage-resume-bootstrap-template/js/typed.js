@@ -1,3 +1,4 @@
+// all my jobs here
 var typed = new Typed('#typed', {
     strings: [
         'Developer',
